@@ -32,6 +32,12 @@ public class Inertial {
         int[] i = {2, 4, 6, 8, 10};
         System.out.println(isIntertial(i));
         System.out.println();
+        int[] j = {5, 20, 15, 77, 35, 8, 78};
+        System.out.println(isIntertial(j));
+        System.out.println();
+        int[] k = {5, -20, 7, 15, 77, 35, 8, 78};
+        System.out.println(isIntertial(k));
+        System.out.println();
     }
     public static int isIntertial(int[] a) {
         boolean issInertial = false;
@@ -101,6 +107,7 @@ public class Inertial {
         for (int num = 0; num < arr.length; num++) {
             if (arr[num] % 2 == 1) {
                     odd = true;
+                    break;
             }
         }
         return odd;
