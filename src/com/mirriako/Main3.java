@@ -21,5 +21,12 @@ public class Main3 {
 
         num3 = num2 > 6 ? 1 : 2;
         System.out.println(num3);
+
+        System.out.println("Using a Ternary selection statement part 2");
+        int age = 10;
+        String message = age >= 18 ? "I am an adult" : "I am a minor";
+        System.out.println(message);
+
+        System.out.println((age >= 18 ? "I am an adult" : "I am a minor"));
     }
 }
