@@ -24,6 +24,7 @@ public class Inertial {
         System.out.println(isIntertial(f));
         System.out.println();
         int[] g = {-2, -4, -6, -8, -11};
+        System.out.println("G array");
         System.out.println(isIntertial(g));
         System.out.println();
         int[] h = {2, 3, 5, 7};
