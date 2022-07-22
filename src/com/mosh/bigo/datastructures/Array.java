@@ -8,9 +8,12 @@ public class Array {
         System.out.println("To Print an array");
         System.out.println(Arrays.toString(arr));
 
+        System.out.println("Using a for loop to print array items");
         for (int i: arr) {
             System.out.print(i + " ");
         }
+
+        System.out.println();
         System.out.println();
 
         int[] arrb = {10, 20, 30};

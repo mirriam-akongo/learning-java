@@ -7,6 +7,7 @@ public class MyArrays {
     private int[] arr;
     private int count;
 
+    /**Declaring the size of the array*/
     public MyArrays (int length) {
         arr = new int[length];
 //        arr = arr;
